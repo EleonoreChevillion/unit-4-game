@@ -1,0 +1,54 @@
+body {
+    height: 100%;
+}
+
+#instructions {
+    background-color:#e9ecef;
+}
+#money {
+    background-color: lightsteelblue;
+    border: steelblue;
+    margin: auto;
+}
+#drinksList{
+    margin-top: 30px;
+}
+#drinks {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#register {
+    margin-bottom: 100px;
+}
+
+.btn {
+width: 150px;
+height: 150px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: 2px;
+background-position-x: 50%; 
+}
+
+.btn:focus {
+    outline:0;
+    box-shadow: 0 0 0 0.2rem rgba(255,255,25,0);
+}
+
+#button-1 {
+background-image: url(../images/gin.png);
+}
+
+#button-2 {
+    background-image: url(../images/biere.png);
+    }
+
+#button-3 {
+background-image: url(../images/tequila.png);
+}
+
+#button-4 {
+background-image: url(../images/vin.png);
+}
+
