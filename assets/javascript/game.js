@@ -12,7 +12,7 @@ var guesses = 0;
 $("#wins").text("Wins: " + wins);
 $("#losses").text("Losses: " + losses);
 initializeGame();
-
+buttons(); 
 function initializeGame() {
     mainNumber = Math.floor(Math.random() * 101) + 30;
     $("#mainNumber").text("$" + mainNumber);
@@ -22,7 +22,10 @@ function initializeGame() {
     box4 = Math.floor(Math.random() * 12) + 1;
     guesses = 0;
     $("#guessNumber").text("$" + guesses); 
-    buttons(); 
+    // $("#button-1").off("click");
+    // $("#button-2").off("click");
+    // $("#button-3").off("click");
+    // $("#button-4").off("click");
  } 
 
  function buttons(){
